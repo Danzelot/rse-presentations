@@ -210,27 +210,21 @@ rewrite from Matlab to Python+Rust using a more optimal algorithm
 
 ---
 
-# Use case 3: rewrite instead of buying a 30 GB hard disk
+# Use case 3: code mentoring
 
-### Problematic if data is 30 GB big
+Software to model toxin accumulation in biological food webs
 
-```python
-result = 0.0
-with open("data.txt", "r") as f:
-    lines = f.readlines()
-    for line in lines:
-        result += analyze(line)
-```
+### Problem: > 12 000 lines of code in VisualBasic 6
 
+- Final release of VB6 1998
+- Very high % of code duplication
+- No modern coding paradigm -> spaghetti code
 
-### Better
+### Rewrite in Python
 
-```python
-result = 0.0
-with open("data.txt", "r") as f:
-    for line in f:
-        result += analyze(line)
-```
+- Modern tools (testing, code analysis, ... )
+- Object oriented and modular design
+- Enable easy expansion and maintainability
 
 ---
 
@@ -276,4 +270,4 @@ class: center, middle, inverse
 
 ## https://research-software.uit.no/contact/
 
-## These slides: https://doi.org/10.5281/zenodo.8368302
+### These slides: https://doi.org/10.5281/zenodo.8368302
