@@ -153,7 +153,9 @@ mputing environment, publishing cresearch outputs"
 # Use cases
 
 - Speeding up a Python code from 4 weeks to below an hour
-- Translating a legacy Visual Basic program to Python
+
+- Translating a legacy VisualBasic program to Python
+
 - Running bioinformatics workflows on data hosted on NIRD
 
 ---
