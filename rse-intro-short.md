@@ -25,6 +25,15 @@ class: gray-background
 
 ---
 
+<img src="img/reproducible-research.jpg"
+     alt="6 helpful steps for reproducible research: file organization, naming, documentation, version control, stabilizing co
+mputing environment, publishing cresearch outputs"
+     style="height: 550px;"/>
+
+.cite[Heidi Seibold, CC-BY 4.0, https://twitter.com/HeidiBaya/status/1579385587865649153]
+
+---
+
 # Research software engineers
 
 .. are people who combine .emph[professional software expertise] with an .emph[understanding of research] .cite[https://researchsoftware.org/]
@@ -141,24 +150,11 @@ class: gray-background
 
 ---
 
-# RSE is an established field
+# Use cases
 
-.left-column50[
-<img src="img/rse-york.png"
-     alt="FAIR principles: findable, accessible, interoperable, reusable"
-     style="height: 350px;"/>
-]
-
-.right-column50[
-<img src="img/rse-princeton.png"
-     alt="FAIR principles: findable, accessible, interoperable, reusable"
-     style="height: 350px;"/>
-]
----
-
-<img src="img/rse-website.png"
-     alt="FAIR principles: findable, accessible, interoperable, reusable"
-     style="width: 100%;"/>
+- Speeding up a Python code from 4 weeks to below an hour
+- Translating a legacy Visual Basic program to Python
+- Running bioinformatics workflows on data hosted on NIRD
 
 ---
 class: center, middle, inverse
